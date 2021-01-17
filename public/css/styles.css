@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+
+
+.name {
+    font-family: 'Pompiere', cursive;
+    letter-spacing: 10px;
+    height: 20%;
+    display: inline-block;
+}
+
+.button-pallete {
+    text-align: right;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 0%;
+}
+
+.social {
+    width: 10px;
+    height: 10px;
+}
+
+.hyper {
+    padding: 5px 15px;
+    height: 50px;
+    margin: 10px 0px;
+    border: none;
+    background-color: transparent;
+    font-family: 'roboto', 'san-serif';
+    text-align: center;
+    font-size: 1.5rem;
+    color: #63686e;
+    transition: 1s;
+}
+
+.hyper:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 0%;
+}
+
+.nav-bar {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.main-image {
+    width: 100%;
+}
+
+.film {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.3;
+}
+
+.intro-text {
+    position: absolute;
+    font-size: 4rem;
+    top: 25%;
+    left :50%;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+
+
+.intro-text:hover {
+    color: rgb(58, 58, 58);
+}
+
+.description-container {
+    color: black;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.1rem;
+    margin: 60px 4%;
+    
+}
+
+
+.text-image-container {
+    margin: 30px 0px;
+    
+}
+
+.text-container {
+    vertical-align: top;
+    display: inline-block;
+    width: 58%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-container-header {
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.text-container-text {
+    text-align: left;
+    margin: 0%;
+    font-size: 1.6rem;
+    margin: auto 20px;
+    font-weight:normal;
+    font-family: 'Crimson Text', serif;
+
+}
+
+.image-container {
+    display: inline-block;
+    width: 40%;
+    transition: 0.3s;
+}
+
+.image-container:hover{
+    width: 41%;
+}
+
+.image-container-image {
+    width: 100%;
+    
+}
+
+.border-left {
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -3px 3px grey;
+}
+
+.border-right {
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 3px 3px grey;
+}
+
+.footer {
+    background-color: #f9f6f7;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+    margin:20px;
+}
+
+.trademark {
+    margin: 0%;
+    font-size: 0.5rem;
+}
+
+.contact-button {
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    top : 30%;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: black;
+    transition: 0.2s;
+}
+
+.contact-button:hover {
+    background-color: black;
+    color: white;
+}
