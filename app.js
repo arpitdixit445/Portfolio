@@ -40,7 +40,7 @@ app.post("/contact/send", function(req,res){
     const url = "https://us7.api.mailchimp.com/3.0/lists/fb61cb872d";
     const options = {
         method : "POST",
-        auth : "admin:ce36c6f7d6592d812218a2c1c0fdb401-us7"
+        auth : "admin:acff42c7a5f128e1dfab2f9cbe5a6966-us7"
     }
 
     const myRequest = https.request(url, options, function(response){
@@ -49,7 +49,7 @@ app.post("/contact/send", function(req,res){
                 res.sendFile(__dirname+"/contact-response-success.html");
             }
             else{
-                console.log("here");
+                console.log(response.statusCode,JSON.parse(d));
                 res.sendFile(__dirname+"/contact-response-failure.html");
             }
         });
@@ -68,7 +68,7 @@ app.post("/contact/done", function(req, res){
 });
 
 app.post("/contact/failed", function(req, res){
-    res.redirect("/contact");
+    res.redirect("/");
 });
 
 app.listen(process.env.PORT || 3000, function(){
