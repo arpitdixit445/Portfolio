@@ -71,6 +71,6 @@ app.post("/contact/failed", function(req, res){
     res.redirect("/contact");
 });
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log("listening at port 3000...");
 });
